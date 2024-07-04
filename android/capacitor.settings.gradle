@@ -2,20 +2,23 @@
 include ':capacitor-android'
 project(':capacitor-android').projectDir = new File('../node_modules/@capacitor/android/capacitor')
 
-include ':capacitor-mlkit-barcode-scanning'
-project(':capacitor-mlkit-barcode-scanning').projectDir = new File('../node_modules/@capacitor-mlkit/barcode-scanning/android')
+include ':bperel-object-detection'
+project(':bperel-object-detection').projectDir = new File('../node_modules/@bperel/object-detection/android')
 
-include ':capacitor-mlkit-face-detection'
-project(':capacitor-mlkit-face-detection').projectDir = new File('../node_modules/@capacitor-mlkit/face-detection/android')
+include ':bperel-barcode-scanning'
+project(':bperel-barcode-scanning').projectDir = new File('../node_modules/@bperel/barcode-scanning/android')
 
-include ':capacitor-mlkit-face-mesh-detection'
-project(':capacitor-mlkit-face-mesh-detection').projectDir = new File('../node_modules/@capacitor-mlkit/face-mesh-detection/android')
+include ':bperel-face-detection'
+project(':bperel-face-detection').projectDir = new File('../node_modules/@bperel/face-detection/android')
 
-include ':capacitor-mlkit-selfie-segmentation'
-project(':capacitor-mlkit-selfie-segmentation').projectDir = new File('../node_modules/@capacitor-mlkit/selfie-segmentation/android')
+include ':bperel-face-mesh-detection'
+project(':bperel-face-mesh-detection').projectDir = new File('../node_modules/@bperel/face-mesh-detection/android')
 
-include ':capacitor-mlkit-translation'
-project(':capacitor-mlkit-translation').projectDir = new File('../node_modules/@capacitor-mlkit/translation/android')
+include ':bperel-selfie-segmentation'
+project(':bperel-selfie-segmentation').projectDir = new File('../node_modules/@bperel/selfie-segmentation/android')
+
+include ':bperel-translation'
+project(':bperel-translation').projectDir = new File('../node_modules/@bperel/translation/android')
 
 include ':capacitor-app'
 project(':capacitor-app').projectDir = new File('../node_modules/@capacitor/app/android')

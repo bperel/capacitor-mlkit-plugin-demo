@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UntypedFormControl, UntypedFormGroup } from '@angular/forms';
-import { Language, Translation } from '@capacitor-mlkit/translation';
+import { Language, Translation } from '@bperel/translation';
 
 @Component({
   selector: 'app-translation',

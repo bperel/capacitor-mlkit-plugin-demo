@@ -6,7 +6,7 @@ import {
   BarcodeFormat,
   BarcodeScanner,
   LensFacing,
-} from '@capacitor-mlkit/barcode-scanning';
+} from '@bperel/barcode-scanning';
 import { FilePicker } from '@capawesome/capacitor-file-picker';
 import { BarcodeScanningModalComponent } from './barcode-scanning-modal.component';
 

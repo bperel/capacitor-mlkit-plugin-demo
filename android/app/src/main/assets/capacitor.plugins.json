@@ -1,22 +1,26 @@
 [
 	{
-		"pkg": "@capacitor-mlkit/barcode-scanning",
+		"pkg": "@bperel/object-detection",
+		"classpath": "io.capawesome.capacitorjs.plugins.mlkit.objectdetection.ObjectDetectionPlugin"
+	},
+	{
+		"pkg": "@bperel/barcode-scanning",
 		"classpath": "io.capawesome.capacitorjs.plugins.mlkit.barcodescanning.BarcodeScannerPlugin"
 	},
 	{
-		"pkg": "@capacitor-mlkit/face-detection",
+		"pkg": "@bperel/face-detection",
 		"classpath": "io.capawesome.capacitorjs.plugins.mlkit.facedetection.FaceDetectionPlugin"
 	},
 	{
-		"pkg": "@capacitor-mlkit/face-mesh-detection",
+		"pkg": "@bperel/face-mesh-detection",
 		"classpath": "io.capawesome.capacitorjs.plugins.mlkit.facemeshdetection.FaceMeshDetectionPlugin"
 	},
 	{
-		"pkg": "@capacitor-mlkit/selfie-segmentation",
+		"pkg": "@bperel/selfie-segmentation",
 		"classpath": "io.capawesome.capacitorjs.plugins.mlkit.selfiesegmentation.SelfieSegmentationPlugin"
 	},
 	{
-		"pkg": "@capacitor-mlkit/translation",
+		"pkg": "@bperel/translation",
 		"classpath": "io.capawesome.capacitorjs.plugins.mlkit.translation.TranslationPlugin"
 	},
 	{

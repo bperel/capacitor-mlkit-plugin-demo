@@ -10,7 +10,7 @@ import {
   LandmarkType,
   PerformanceMode,
   Point,
-} from '@capacitor-mlkit/face-detection';
+} from '@bperel/face-detection';
 import { FilePicker } from '@capawesome/capacitor-file-picker';
 
 @Component({

@@ -15,7 +15,7 @@ import {
   BarcodeScanner,
   LensFacing,
   StartScanOptions,
-} from '@capacitor-mlkit/barcode-scanning';
+} from '@bperel/barcode-scanning';
 import { InputCustomEvent } from '@ionic/angular';
 
 @Component({

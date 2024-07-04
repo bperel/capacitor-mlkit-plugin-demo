@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { FaceMeshPoint, Contours } from '@capacitor-mlkit/face-mesh-detection';
+import { FaceMeshPoint, Contours } from '@bperel/face-mesh-detection';
 
 const contourType: any = {
   faceOval: {

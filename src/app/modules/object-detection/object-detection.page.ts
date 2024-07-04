@@ -3,17 +3,17 @@ import { UntypedFormControl, UntypedFormGroup } from '@angular/forms';
 import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
 import {
   ProcessImageResult,
-  SelfieSegmentation,
-} from '@bperel/selfie-segmentation';
+  ObjectDetection,
+} from '@bperel/object-detection';
 import { Capacitor } from '@capacitor/core';
 import { FilePicker } from '@capawesome/capacitor-file-picker';
 
 @Component({
-  selector: 'app-selfie-segmentation',
-  templateUrl: './selfie-segmentation.page.html',
-  styleUrls: ['./selfie-segmentation.page.scss'],
+  selector: 'app-object-detection',
+  templateUrl: './object-detection.page.html',
+  styleUrls: ['./object-detection.page.scss'],
 })
-export class SelfieSegmentationPage {
+export class ObjectDetectionPage {
   public formGroup = new UntypedFormGroup({
     width: new UntypedFormControl(512),
     height: new UntypedFormControl(),
@@ -45,7 +45,7 @@ export class SelfieSegmentationPage {
     const height = this.formGroup.get('height')?.value;
     const confidence = this.formGroup.get('confidence')?.value;
 
-    const result = await SelfieSegmentation.processImage({
+    const result = await ObjectDetection.processImage({
       path,
       width: width,
       height: height,

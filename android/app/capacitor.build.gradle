@@ -9,11 +9,12 @@ android {
 
 apply from: "../capacitor-cordova-android-plugins/cordova.variables.gradle"
 dependencies {
-    implementation project(':capacitor-mlkit-barcode-scanning')
-    implementation project(':capacitor-mlkit-face-detection')
-    implementation project(':capacitor-mlkit-face-mesh-detection')
-    implementation project(':capacitor-mlkit-selfie-segmentation')
-    implementation project(':capacitor-mlkit-translation')
+    implementation project(':bperel-object-detection')
+    implementation project(':bperel-barcode-scanning')
+    implementation project(':bperel-face-detection')
+    implementation project(':bperel-face-mesh-detection')
+    implementation project(':bperel-selfie-segmentation')
+    implementation project(':bperel-translation')
     implementation project(':capacitor-app')
     implementation project(':capacitor-haptics')
     implementation project(':capacitor-keyboard')

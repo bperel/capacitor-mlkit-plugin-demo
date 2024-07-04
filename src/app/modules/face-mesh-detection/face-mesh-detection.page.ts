@@ -5,7 +5,7 @@ import {
   FaceMeshDetection,
   Point3D,
   UseCase,
-} from '@capacitor-mlkit/face-mesh-detection';
+} from '@bperel/face-mesh-detection';
 import { FilePicker } from '@capawesome/capacitor-file-picker';
 
 @Component({

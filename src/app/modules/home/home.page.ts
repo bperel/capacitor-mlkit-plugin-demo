@@ -20,6 +20,10 @@ export class HomePage {
       url: '/face-mesh-detection',
     },
     {
+      name: 'Object Detection',
+      url: '/object-detection',
+    },
+    {
       name: 'Selfie Segmentation',
       url: '/selfie-segmentation',
     },
